@@ -59,6 +59,14 @@
     height: 20px;
 }
 
+@media (max-width: 768px) {
+    #sobre-mi{
+        margin: 8rem 1.5rem;
+    }
+    #sobre-mi h1{
+        font-size: 2.5em;
+    }
+}
 
 
 

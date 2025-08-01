@@ -9,7 +9,7 @@ nav{
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
-    top: 5px;
+    top: 20px;
     z-index: 2;
 }
 
