@@ -1,0 +1,30 @@
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+    color: #fff;
+}
+
+footer span{
+    color: #747272;
+    transition: ease-in 0.2s;
+    cursor: pointer;
+}
+
+footer span:hover{
+    color: #007D7F;
+}
+
+
+footer ul li svg{
+    transition: ease-in 0.2s;
+    color: #747272;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+footer ul li svg:hover{
+    color: #007D7F;
+}

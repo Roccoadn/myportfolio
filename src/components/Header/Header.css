@@ -1,0 +1,32 @@
+nav{
+    background-color: #377892;
+    border-radius: 16px;
+    padding: 5px 10px;
+    display: flex;
+    gap: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    width: fit-content;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 5px;
+    z-index: 2;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.header-menu a {
+    color: #1C2E44;
+    text-decoration: none;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.header-menu a:hover {
+    transition: ease-in 0.2s;
+    color: #fff;
+}

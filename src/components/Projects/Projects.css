@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+#projects h1 svg {
+    width: 24px;
+    height: 24px;
+    color: #00b4d8;
+}
+
+#projects .projects-list {
+    gap: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#projects .projects-list .projects-card {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    color: #fff;
+}
+
+#projects .projects-list .projects-card img {
+    height: 180px;
+    border-radius: 16px;
+}
+
+#projects .projects-list .card-info-container {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+#projects .projects-list .projects-card .card-info-container h2 {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+#projects .projects-list .projects-card .card-info-container .icons {
+    display: flex;
+    gap: 15px;
+    justify-items: center;
+    align-items: center;
+}
+
+#projects .projects-list .projects-card .card-info-container .icons svg {
+    width: 32px;
+    height: 32px;
+}
+
+#projects .projects-list .projects-card .card-info-container .button-card-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#projects button {
+    background:none;
+    width: fit-content;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 16px;
+    border: solid 0.5px #fff;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+#projects button:hover {
+    background-color: #007D7F;
+}
+
+#projects button a{
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .projects-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .projects-card img {
+        width: 90%;
+        height: auto;
+    }
+
+    .card-info-container {
+        width: 90%;
+        align-items: center;
+    }
+
+    .projects-list {
+        gap: 4rem;
+    }
+
+    .projects-card .icons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .projects-card .icons svg {
+        width: 28px;
+        height: 28px;
+    }
+}

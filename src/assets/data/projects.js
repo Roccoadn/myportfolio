@@ -1,0 +1,38 @@
+export const projects = [
+  {
+    id: 1,
+    title: 'ShopyNet',
+    description: 'Tienda online con carrito, login y panel de admin.',
+    image: '/img/shopynet-preview.webp',
+    techs: ['node', 'mongo', 'css', 'html', 'express', 'npm', 'insomnia', 'js'],
+    repoUrl: 'https://github.com/Roccoadn/BackEnd-ll',
+    demoUrl: 'https://github.com/Roccoadn/BackEnd-ll',
+  },
+  {
+    id: 2,
+    title: 'DepilarFernandez',
+    description: 'Sitio web para un emprendimiento de depilacion laser definitiva.',
+    image: '/img/depilarfernandez-preview.webp',
+    techs: ['html', 'css', 'scss'],
+    repoUrl: 'https://github.com/Roccoadn/depilarfernandez',
+    demoUrl: 'https://roccoadn.github.io/depilarfernandez/index.html',
+  },
+  {
+    id: 3,
+    title: 'ArqStudio',
+    description: 'Maquetado de un sitio web para un estudio de arquitectura',
+    image: '/img/arqstudio-preview.webp',
+    techs: ['html', 'css'],
+    repoUrl: 'https://github.com/Roccoadn/arqstudio',
+    demoUrl: 'https://roccoadn.github.io/ArqStudio/',
+  },
+    {
+    id: 4,
+    title: 'WeatherApp',
+    description: 'Aplicación del clima',
+    image: '/img/weather-app-preview.webp',
+    techs: ['html', 'css', 'js', 'vite', 'react'],
+    repoUrl: 'https://github.com/Roccoadn/weatherApp',
+    demoUrl: 'https://weather-app-roccoadn.vercel.app/',
+  },
+];

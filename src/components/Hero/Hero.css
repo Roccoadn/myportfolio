@@ -1,0 +1,67 @@
+#sobre-mi{
+    margin: auto;
+    margin-top: 9rem;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+#sobre-mi .avatar-container{
+    gap: 2em;
+    display: flex;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+#sobre-mi .avatar-container .avatar{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background-image: url(/img/avatar.webp);
+    background-size: cover;
+}
+
+#sobre-mi .avatar-container .open-to-work{
+    border-radius: 16px;
+    border: solid 1px rgb(38, 87, 38);
+    padding: 5px 10px;
+}
+#sobre-mi h1{
+    width: fit-content;
+    font-size: 3rem;
+    margin: 0;
+}
+#sobre-mi p{
+    text-align: left;
+    width: fit-content;
+}
+#sobre-mi p span{
+    color: #377892;
+}
+#sobre-mi .hero-icons-ul button {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    color: #fff;
+    border: solid 0.5px #fff;
+    background: none;
+    border-radius: 16px;
+    transition: ease-in 0.2s;
+}
+#sobre-mi .hero-icons-ul button:hover {
+    background-color: #007D7F;
+}
+#sobre-mi .hero-icons-ul button a{
+    color: #fff;
+    text-decoration: none;
+}
+#sobre-mi .hero-icons-ul button svg{
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+
+
+

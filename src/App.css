@@ -1,0 +1,24 @@
+body{
+  font-family: "Ubuntu", sans-serif;
+  color: #020202;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: radial-gradient(ellipse 80% 80% at 50% -20%, rgba(36, 59, 85, 1), rgba(20, 30, 48, 1 ));
+  line-height: 1.5em;
+  color: #fff;
+}
+
+h1{
+  font-size: 2em;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+h2{
+  font-size: 1.5em;
+}
+
+p{
+  font-size: 0.9em;
+}
