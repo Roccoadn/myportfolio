@@ -7,7 +7,7 @@ AOS.init();
 function Techs(){
     return(
         <section id='techs' data-aos="fade-up" data-aos-duration="900">
-            <h1><BoltIcon/>Tecnologías y herramientas</h1>
+            <h1><BoltIcon/>Tecnologías <br />y <br /> herramientas</h1>
             <div className="techs-container">
                 <ul>
                     <li>
