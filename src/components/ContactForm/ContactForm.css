@@ -6,34 +6,51 @@
 .contact-form {
     display: flex;
     flex-direction: column;
+    gap: 1rem;
     color: #020202;
-    width: 250px;
+    width: fit-content;
     padding: 20px;
-    gap: 1.5rem;
     margin: auto;
     background-color: #fff;
     border-radius: 6px;
-    box-shadow: 0 0 5px 0 rgba(32, 58, 67, 0.459);
+}
+
+.contact-form .form-labels{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 5px 10px;
+    
+}
+
+.contact-form .form-labels svg{
+    width: 32px;
+    height: 32px;
 }
 
 .contact-form input,
 .contact-form textarea {
-    border: 1px solid #020202;
-    border-radius: 6px;
-    font-family: 'Fira Code', Consolas, monospace;
-    font-weight: bold;
-    font-size: 0.9rem;
-    padding: 5px 10px;
+    border: none;
+    width: 100%;
+    font-family: "Ubuntu", sans-serif;
 }
 
-.contact-form input:focus,
-.contact-form textarea:focus{
-    box-shadow: 0 0 2px 3px #007D7F;
+.contact-form textarea{
+    margin-top: 15px;
+}
+
+.contact-form .form-labels input:focus,
+.contact-form .form-labels textarea:focus{
+    border: none;
+    outline: none;
 }
 
 .contact-form button {
     width: fit-content;
     margin: auto;
+    margin-top: 1rem;
     text-decoration: none;
     font-size: 0.9rem; 
     font-weight: 600; 

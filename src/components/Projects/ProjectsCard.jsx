@@ -7,7 +7,9 @@ AOS.init();
 function ProjectsCard({ title, description, image, repoUrl, demoUrl, techs, className}) {
   return (
     <div className={`projects-card ${className}`} data-aos="fade-up" data-aos-duration="900">
-      <img src={image} alt={`Preview de ${title}`} />
+      <a href={demoUrl} target="_blank" rel="noopener noreferrer" className="card-link">
+        <img src={image} alt={`Preview de ${title}`} />
+      </a>
       <div className='card-info-container'>
         <h2>{title}</h2>
         <p>{description}</p>
@@ -19,12 +21,12 @@ function ProjectsCard({ title, description, image, repoUrl, demoUrl, techs, clas
         <div className='button-card-container'>
           <button>
             <a href={repoUrl} target="_blank" rel="noopener noreferrer" className="card-link">
-              Ver repositorio
+              VER REPOSITORIO
             </a>
           </button>
           <button>
             <a href={demoUrl} target="_blank" rel="noopener noreferrer" className="card-link">
-              Ver Demo
+              VER DEMO
             </a>
           </button>
         </div>

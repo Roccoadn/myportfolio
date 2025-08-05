@@ -9,7 +9,7 @@ function Projects(){
             <ProjectsList></ProjectsList>
             <button className='repo-button'>
                 <a href="https://github.com/Roccoadn?tab=repositories" target="_blank" rel="noopener noreferrer">
-                    Ver más
+                    VER MÁS
                 </a>
             </button>
         </section>

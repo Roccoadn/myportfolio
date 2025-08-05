@@ -7,24 +7,24 @@ footer{
 }
 
 footer span{
-    color: #747272;
+    color: #007D7F;
     transition: ease-in 0.2s;
     cursor: pointer;
 }
 
 footer span:hover{
-    color: #007D7F;
+    color: #747272 ;
 }
 
 
 footer ul li svg{
     transition: ease-in 0.2s;
-    color: #747272;
+    color: #007D7F;
     width: 24px;
     height: 24px;
     cursor: pointer;
 }
 
 footer ul li svg:hover{
-    color: #007D7F;
+    color: #747272;
 }

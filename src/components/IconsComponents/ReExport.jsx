@@ -16,4 +16,7 @@ export { default as CurriculumIcon } from './ExtraIcons/CurriculumIcon';
 export { default as JwtIcon } from './ToolsIcons/JwtIcon';
 export { default as BoltIcon } from './ExtraIcons/BoltIcon';
 export { default as CodeIcon } from './ExtraIcons/CodeIcon';
-export { default as PhoneIcon } from './ExtraIcons/PhoneIcon'
+export { default as PhoneIcon } from './ExtraIcons/PhoneIcon';
+export { default as MessageIcon } from './ExtraIcons/MessageIcon';
+export { default as UserIcon } from './ExtraIcons/UserIcon';
+export { default as EmailIcon } from './ExtraIcons/EmailIcon';

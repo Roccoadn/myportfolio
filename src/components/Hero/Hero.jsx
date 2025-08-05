@@ -10,8 +10,8 @@ function Hero(){
                 </div>
                 <h1>¡Hola, soy Rocco!</h1>
                 <p>
-                    Mi nombre es Rocco Andreone y soy <span> Front End Web Developer,</span> tengo conocimientos de Back End,<br />
-                    pero me identifico mas con el stack del Front e intento <span>siempre estar aprendiendo<br />
+                    Mi nombre es Rocco Andreone y soy <span> Front End Web Developer,</span> tengo conocimientos en Back End,
+                    pero me identifico mas con el stack del Front e intento <span>siempre estar aprendiendo<br/>
                     tecnologias y herramientas nuevas</span> para ser cada vez mejor. 
                 </p>
                 <ul className='hero-icons-ul'>

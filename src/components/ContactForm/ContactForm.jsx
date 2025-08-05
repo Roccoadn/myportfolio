@@ -2,6 +2,7 @@ import { useRef } from 'react';
 import emailjs from '@emailjs/browser'
 import Swal from 'sweetalert2';
 import './ContactForm.css'
+import { EmailIcon, UserIcon, MessageIcon } from '../IconsComponents/ReExport'
 
 function ContactForm() {
   const form = useRef();
@@ -42,11 +43,17 @@ function ContactForm() {
 
   return (
       <form ref={form} onSubmit={sendEmail} className='contact-form'>
-        <input placeholder='Nombre' type="text" name="name" required />
+        <div className='form-labels'>
+          <UserIcon/><input placeholder='Nombre' type="text" name="name" autoComplete="on" required />
+        </div>
 
-        <input placeholder='Email' type="email" name="email" required />
+        <div className='form-labels'>
+          <EmailIcon/><input placeholder='Email' type="email" name="email" autoComplete="on" required />
+        </div>
 
-        <textarea placeholder='Mensaje' name="message" required />
+        <div className='form-labels'>
+          <MessageIcon/><textarea placeholder='Mensaje' name="message" required />
+        </div>
 
         <button type="submit">ENVIAR</button>
       </form>
