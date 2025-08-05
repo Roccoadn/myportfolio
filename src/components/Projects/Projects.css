@@ -31,6 +31,11 @@
     color: #fff;
 }
 
+#projects .projects-list .projects-card a {
+    display: flex;
+    justify-content: center;
+}
+
 #projects .projects-list .projects-card img {
     height: 180px;
     border-radius: 16px;
@@ -51,9 +56,8 @@
 
 #projects .projects-list .projects-card .card-info-container .icons {
     display: flex;
+    justify-content: start;
     gap: 15px;
-    justify-items: center;
-    align-items: center;
 }
 
 #projects .projects-list .projects-card .card-info-container .icons svg {
@@ -78,6 +82,7 @@
     color: #fff;
     cursor: pointer;
     transition: all 0.2s ease-in;
+    margin-top: 1rem;
 }
 
 #projects button:hover {
