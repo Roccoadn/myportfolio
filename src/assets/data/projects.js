@@ -6,7 +6,7 @@ export const projects = [
     image: '/img/shopynet-preview.webp',
     techs: ['node', 'mongo', 'css', 'html', 'express', 'npm', 'insomnia', 'js'],
     repoUrl: 'https://github.com/Roccoadn/BackEnd-ll',
-    demoUrl: 'https://github.com/Roccoadn/BackEnd-ll',
+    demoUrl: 'https://shopynet.up.railway.app/',
   },
   {
     id: 2,
